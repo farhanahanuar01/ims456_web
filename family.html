@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Family</title>
+
+</head>
+
+<style>
+body{
+ background-color:#d9d5c8;
+ margin:0px;
+ padding:0px;
+}
+
+nav {
+ display: flex;
+ justify-content: space-between;
+ align-items:center;
+ height:60px;
+ background-color:#ffffff;
+ box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+ padding:0px 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+ text-decoration:none;
+}
+
+nav ul{
+ display: flex;
+}
+ 
+nav ul li a{
+ margin:30px;
+ font-family:myriad pro regular;
+ color:#505050;
+ font-size: 15px;
+ font-weight:700;
+}
+
+article{
+ width:100%;
+ height:180px;
+ background-size:cover;
+ background-repeat:no-repeat;
+ position: relative;
+}
+
+table, th, td {
+  border: 2px grey;
+  border-collapse: collapse;
+}
+
+
+.logo{
+ font-family:RoadTest;
+ color:#000000;
+ font-size: 22px;
+}
+
+.active{
+ color:#2d2a2a;
+ font-weight:bold;
+ }
+
+
+/*button*/
+.btn {
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: right;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #9A7F6D;
+}
+
+
+/*text2*/
+.text-container2{
+ position: absolute;
+ font-family: myriad pro;
+ color: black;
+ background-color: #d9d5c8;
+ height: 800px;
+ left:0%;
+ padding: 30px;
+ width: 100%;
+}
+
+.text-container2 p:nth-child(1){
+ font-family: RoadTest;
+ font-weight:bold;
+ text-align: center;
+ color:black;
+ font-size:40px;
+}
+
+.text-container2 p:nth-child(2){
+ color:#3e3d3d;
+ font-size:20px;
+ text-align: center;
+ font-family: myriad pro;
+ font-weight:bold;
+ line-height:5px;
+}
+
+.text-container2 p{
+ margin:45px 0px 25px;
+ line-height:0px;
+}
+
+.about-container2{
+ width:90%;
+ height:900px;
+ background:#ffffff;
+ border-radius:20px;
+ box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+ display: flex;
+ margin: 0%  auto 20px auto;
+ position: relative;
+ justify-content:space-evenly;
+ align-items: center;
+ left:0%;
+ padding: 30px;
+}
+.about-container2 img{
+ height:300px;
+}
+
+.about-text2 p:nth-child(1){
+ color:#403e3e;
+ font-family: myriad pro;
+}
+
+
+/*buttoncontact*/
+.btn3 {
+  border: none;
+  color: black;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: right;
+  width:40px;
+  height:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin:20px 10px;
+  border-radius:50%;
+}
+/* Darker background on mouse-over */
+.btn3:hover {
+  background-color: #9A7F6D;
+  ;
+}
+
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+footer p{
+ font-family: calibri;
+}
+footer p:nth-child(1){
+ font-size: 30px;
+ font-weight:bold;
+ color:#191919;
+ line-height:10px;
+}
+footer p:nth-child(2){
+ font-size: 16px;
+ color:#7e7d7d;
+ width:600px;
+ text-align: center;
+}
+footer{
+ height:300px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+}
+
+
+/*buttoncontact*/
+.btn2 {
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:20px 10px;
+  border-radius:50%;
+}
+/* Darker background on mouse-over */
+.btn2:hover {
+  background-color: #9A7F6D;
+}
+
+.copyright{
+ color:#565555;
+ font-size: 12px;
+ position: absolute;
+ left:50%;
+ bottom:10px;
+ transform: translateX(-50%);
+}
+</style>
+
+<body>
+	<article>
+	<!--navigation------------------------->
+	<nav>
+	<!--logo-->
+	<a class="logo" href="index.html">Farhanah Anuar</a>
+	<!--menu-->
+	<ul>
+	<li><a class="active" href="index.html">Home</a></li>
+	<li><a href="biodata.html">Biodata</a></li>
+	<li><a href="experience.html">Experience</a></li>
+	<li><a href="education.html">Education</a></li>
+	<li><a href="family.html">Family</a></li>
+	<li><a href="gallery.html">Gallery</a></li>
+	</ul>
+
+	<div id="btn">
+	<button class="btn"><a href="https://www.farhanah2910anuar@gmail.com"><img src="./image/mail.png" width="20px" height="20px"></button></a>
+	<button class="btn"><a href="https://wa.link/lydzcd"><img src="./image/contact.png" width="18px" height="18px"></button></a>
+	</div>
+  </nav>
+
+
+  <!--text----------------------->
+		<div class="text-container2">
+		  <blockquote>			
+			<p>My Family</p>
+		  </blockquote>
+		</div>
+	</article>
+	
+	<div class="about-container2" id="About-container2">
+		<div class="about-text2">
+			<!--about-me-text-->
+			<h2 style="color: #471C79;"><u>Let's get to know my family members:</u></h2>
+      <img src="./image/family.png" style="width: 1230px; height: 700px;"/>
+</div>
+	</div>
+
+
+	<!--footer--------------->
+ <footer>
+	 <!--heading-->
+  <p>My Social Medias</p>
+	 <!--paragraph-->
+	 <p>Follow and Join with us:</p>
+	 <!--social-->
+	<div class="btn2">
+	<button class="btn2"><a href="https://www.instagram.com/phanahhh/"><img src="./image/ig.png" width="30px" height="30px"></button></a>
+	<button class="btn2"><a href="https://wa.link/lydzcd"><img src="./image/ws.png" width="30px" height="30px"></button></a>
+  <button class="btn2"><a href="https://www.facebook.com/phanahhh"><img src="./image/fb.png" width="30px" height="30px"></button></a>
+	<button class="btn2"><a href="https://www.farhanah2910anuar@gmail.com"><img src="./image/email.png" width="30px" height="30px"></button></a>
+	</div>
+
+	 <!--copyright-->
+	 <p class="copyright">Copyright by FARHANAH ANUAR</p>
+</footer>
+	
+	<!--JQUery-------------------->
+<script src="js/JQuery.js" type="text/javascript"></script>
+
+
+</body>
+</html>
